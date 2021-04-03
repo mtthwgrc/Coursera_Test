@@ -1,0 +1,114 @@
+* {
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+body{
+	box-sizing: border-box;
+}
+@media (min-width: 992px){
+	.container{
+		position: relative;
+		top:75px;
+	}
+	.Desktop{
+		width:33.33%;
+		float:left;
+		border:3px solid white;
+		padding: 2%;
+		background-color: blue;
+	}
+	h1{font-size: 05vw;}
+	h2 {
+		color: blue;
+		font-size: 02vw;
+	}
+	p{
+		color: white;
+		line-height: 150%;
+	}
+	.staythere{
+		position:relative;
+		float: right;
+		width:50%;
+		border: 1px solid black;
+		text-align: center;
+		padding: 0 auto;
+		background-color: white;
+		
+	}
+	
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	.container{
+		position: relative;
+		top:75px;
+	}
+	.Tablet1{
+		width:50%;
+		float: left;
+		border: 3px solid black;
+		background-color: red;
+		padding:2%;
+
+	}
+	.Tablet2{
+		width: 100%;
+		float:left;
+		border: 5px solid black;
+		padding:2%;
+
+	}
+	h1{font-size: 05vw;}
+	h2 {
+		color: blue;
+		font-size: 02vw;
+	}
+	p{
+		color: black;
+		line-height: 150%;
+	}
+	.staythere{
+		position:relative;
+		float: right;
+		width:50%;
+		border: 1px solid black;
+		padding: 0 10%;
+	}
+
+}
+
+@media (max-width: 767px){
+	.container{
+		position: relative;
+		top:75px;
+	}
+	.Phone{
+		float:left;
+		width:100%;
+		border:5px solid yellow;
+		padding:2%;
+
+	}
+	h1{font-size: 05vw;}
+	h2 {
+		color: blue;
+		font-size: 02vw;
+	}
+	p{
+		color: black;
+		line-height: 150%;
+	}
+
+	.staythere{
+		position:relative;
+		float: right;
+		width:50%;
+		border: 2px solid black;
+		text-align:center;
+	}
+
+}
+
+
